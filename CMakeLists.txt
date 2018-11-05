@@ -11,6 +11,8 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(avcodec libavcodec REQUIRED)
 pkg_check_modules(swscale libswscale REQUIRED)
 
+find_package(OpenCV 2 REQUIRED)
+
 ###################################################
 ## Declare things to be passed to other projects ##
 ###################################################
